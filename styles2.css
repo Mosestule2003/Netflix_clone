@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+span{
+    padding-left: 0.5em;
+}
+.container{
+    background-color: rgb(25, 24, 24);
+}
+
+.page-one-container{
+    height: 158vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/page-images/netflix-background-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo-container{
+    height: 150px;
+    width: 150px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3.2em;
+    padding-right: 3.2em;
+    width: 100%;
+}
+
+.navigation-btn{
+    padding:0.4em 1em;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #E50914;
+}
+
+.navigation-btn a{
+    color: white;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6em;
+}
+
+form{
+    width: 80vh;
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 6em;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    border-radius: 5px;
+}
+
+.form-header{
+    color: #fff;
+    font-size: 2.5em;
+    padding-bottom: 0.8em;
+}
+
+.input-gap{
+    padding-bottom: 1.5em;
+}
+
+.input-spacing{
+    width: 100%;
+    padding: 1em;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: rgb(25, 24, 24);
+}
+
+.form-btn{
+    width: 100%;
+    padding: 1em;
+    background-color: #E50914;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.form-btn a{
+    color: #fff;
+}
+
+.cookies-settings{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.5em;
+}
+
+.left{
+    display: flex;
+    gap: 0.5em;
+    color: rgb(135, 134, 134);
+}
+
+.right{
+    color: rgb(135, 134, 134);
+}
+
+.rechaptcha-verification-paragraph{
+    padding-bottom: 1em;
+    font-size: 1.1em;
+    color: rgb(135, 134, 134);
+}
+
+.rechaptcha-verification-paragraph span a{
+    color: #fff;
+}
+
+.rechaptcha-verification-paragraph-two{
+    font-size: 1em;
+    color: rgb(135, 134, 134);
+}
+
+.rechaptcha-verification-paragraph-two span{
+    color: rgb(44, 93, 255);
+}
+
+footer{
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 3em;
+    padding-bottom: 2.8em;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.footer-header a{
+    color: rgb(81, 79, 79);
+  }
+  .footer-header{
+    font-size: 1.1em;
+  }
+  .footer-header-bottom{
+    font-size: 1.1em;
+    padding-top: 1em;
+  }
+  .footer-header a:hover{
+    text-decoration: 1px underline;
+  }
+  .footer-header-bottom a:hover{
+    text-decoration: 1px underline;
+  }
+  .footer-header-bottom a{
+    color: rgb(81, 79, 79);
+  }
+
+  .footer-grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    padding-top: 1.5em;
+  }
+
+  .footer-grid ul li{
+    margin: 1em 0;
+  }
+
+  .footer-grid ul li a{
+    color: rgb(81, 79, 79);
+  }
+
+  .footer-grid ul li :hover{
+    text-decoration: 1px underline;
+  }
